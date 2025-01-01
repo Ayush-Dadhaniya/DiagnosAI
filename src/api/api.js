@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:8000/predict_disease/';
+const apiUrl = 'https://backenddiagnos.onrender.com/predict_disease/';
 
 export const predictDisease = async (diseaseType, formData) => {
   try {
