@@ -35,7 +35,7 @@ function App() {
     setPrediction(null);
 
     try {
-      const response = await fetch('http://localhost:8000/predict_disease/', {
+      const response = await fetch('https://backenddiagnos.onrender.com/predict_disease/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
